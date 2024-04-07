@@ -21,6 +21,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\DesignPatterns.App\DesignPatterns.App.csproj" />
+      <ProjectReference Include="..\DesignPatterns.Infrastructure\DesignPatterns.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

@@ -17,4 +17,12 @@
       <PackageReference Include="MediatR" Version="12.2.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="UseCases\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DesignPatterns.Contracts\DesignPatterns.Contracts.csproj" />
+    </ItemGroup>
+
 </Project>

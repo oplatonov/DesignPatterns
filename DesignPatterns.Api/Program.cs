@@ -1,20 +1,18 @@
 using DesignPatterns;
 using DesignPatterns.App;
+using DesignPatterns.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
 var services = builder.Services;
 
-#region Services
-
 services.AddApiServices();
 services.AddApplication();
-
-#endregion
+services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 
-#region AppCfg
+#region AppConfig
 
 if (app.Environment.IsDevelopment())
 {

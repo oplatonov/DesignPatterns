@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Api", "Desig
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.App", "DesignPatterns.App\DesignPatterns.App.csproj", "{2D8DC8FB-9F10-493D-BED9-BC308AAC946B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Infrastructure", "DesignPatterns.Infrastructure\DesignPatterns.Infrastructure.csproj", "{91DA136A-1BDD-4960-BEA6-42D58D7F0F00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Contracts", "DesignPatterns.Contracts\DesignPatterns.Contracts.csproj", "{F1A03952-8072-4A03-B09B-CA75CEFAD8EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{2D8DC8FB-9F10-493D-BED9-BC308AAC946B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D8DC8FB-9F10-493D-BED9-BC308AAC946B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D8DC8FB-9F10-493D-BED9-BC308AAC946B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DA136A-1BDD-4960-BEA6-42D58D7F0F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DA136A-1BDD-4960-BEA6-42D58D7F0F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DA136A-1BDD-4960-BEA6-42D58D7F0F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DA136A-1BDD-4960-BEA6-42D58D7F0F00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1A03952-8072-4A03-B09B-CA75CEFAD8EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A03952-8072-4A03-B09B-CA75CEFAD8EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A03952-8072-4A03-B09B-CA75CEFAD8EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A03952-8072-4A03-B09B-CA75CEFAD8EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
